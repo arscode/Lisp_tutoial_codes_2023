@@ -3,4 +3,4 @@ LISP codes for sem-VI tutorials. Codes are used for SEM - VI Computational Intel
 
 To run:
 
-clisp <filename.lisp>
+clisp  <filename.lisp>
