@@ -1,0 +1,32 @@
+;; list manipulation in LISP
+;; usage or car(): it prints the first element of the given list
+(write-line "Usage of car()")
+(write (car '( dog 1 2 3 4.43 hello)))
+(terpri)
+
+;; usage of cdr(): it prints all the elements of the list
+(write-line "Usage of cdr()")
+(write(cdr '(hello 3.4 me 0.001 120 meow)))
+(terpri)
+
+;; usage of cadr(), cdddr() cddr()
+(write-line "--------------------------------")
+(write-line "Usage of card(), cddr(), cdddr()")
+(setf ds9 '(Sisko Kira Dax Odo Bashir OBrien))
+(write-line "Given list:")
+(write ds9)
+(terpri)
+(write-line "Printing the second element of the list:")
+(write(cadr ds9))
+(terpri)
+(write-line "Printing the third element of the list:")
+(write (caddr ds9))
+(terpri)
+(write-line "Printing the forth element of the list:")
+(write (cadddr ds9))
+(terpri)
+(write-line "Usage of cddr():")
+(write (cddr ds9))
+(terpri)
+(write-line "Usage of cdddr():")
+(write (cdddr ds9))

@@ -1,0 +1,17 @@
+;; append two or more lists and print as a single list
+;; usage of append()
+;;
+(setf ds9 '(Sisko Kira Dax Odo Bashir OBrien))
+(write-line "Given list ds9:")
+(write ds9)
+(terpri)
+(setf mtx '(23 cow 0101010 new world))
+(write-line "Given list mtx:")
+(write mtx)
+(terpri)
+(write-line "appending two lists & print as a single list:")
+(write (append ds9 mtx))
+(terpri)
+(write-line "Appending more than two lists:")
+(write (append '(1 2 3 4 5) mtx ds9))
+(terpri)

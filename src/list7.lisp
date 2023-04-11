@@ -1,0 +1,11 @@
+;; reverse the given list
+(setf ds9 '(Sisko Kira Dax Odo Bashir OBrien))
+(write-line "Given list ds9:")
+(write ds9)
+(terpri)
+(write-line "Reverse list:")
+(write (reverse ds9))
+(terpri)
+(write-line "Test list (1 2 3 4 5) & reverse:")
+(write (reverse '(1 2 3 4 5)))
+(terpri)
